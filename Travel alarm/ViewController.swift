@@ -27,9 +27,10 @@ class ViewController: UIViewController, CLLocationManagerDelegate  {
                     let placemark = placemarks[0] as! CLPlacemark
                
                     
-                    println(placemark.location);
+                    println(placemark.location.coordinate.latitude);
                   
-                
+                    
+                   
                     
                     
                 }
